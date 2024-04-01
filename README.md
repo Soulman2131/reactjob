@@ -1,8 +1,10 @@
 # Agence REACT.JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Il s'agit de la création d'une agence d'Interim qui liste ses offres d'emploi en REACT.
+Le projet est construit à partir de <strong> Vite </strong> et <strong> React.Js </strong>. On utilise Json-Server en backend.
 
-Currently, two official plugins are available:
+## Installation des dépendances
+- npm install
+- npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
