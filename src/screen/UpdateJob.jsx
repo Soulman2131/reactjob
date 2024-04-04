@@ -61,7 +61,7 @@ const UpdateJob = () => {
         <div className="bg-white px-6 py-8 mb-4 shadow-md rounded-md border m-4 md:m-0">
           <form onSubmit={handleUpdate}>
             <h2 className="text-3xl text-center text-blue-600 font-semibold mb-6">
-              Ajouter une offre
+              Mettre à jour l'offre
             </h2>
 
             <div className="mb-4">

@@ -22,7 +22,7 @@ const Job = ({ job }) => {
 
         <button
           onClick={() => setToggle((prevState) => !prevState)}
-          className="text-yellow-500 mb-5 hover:text-red-700"
+          className="text-indigo-500 mb-5 hover:text-indigo-600"
         >
           {toggle ? "Moins de de détails" : "Cliquez pour plus de détails"}
         </button>
@@ -38,7 +38,7 @@ const Job = ({ job }) => {
           </div>
           <Link
             to={`/jobs/${job.id}`}
-            className="h-[36px] bg-yellow-500 hover:bg-black text-white px-4 py-2 rounded-lg text-center text-sm"
+            className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
           >
             En savoir plus
           </Link>

@@ -19,7 +19,7 @@ const ChoiceHero = () => {
               Explorer les emplois
             </Link>
           </FormChoiceHero>
-          <FormChoiceHero bg="bg-yellow-200">
+          <FormChoiceHero bg="bg-indigo-100">
             <h2 className="text-2xl font-bold">Pour les entreprises</h2>
             <p className="mt-2 mb-4">
               Inscrivez votre offre pour trouver le développeur idéal pour le
@@ -27,7 +27,7 @@ const ChoiceHero = () => {
             </p>
             <Link
               to="/add-job"
-              className="inline-block bg-green-500 text-white rounded-lg px-4 py-2 tracking-wider  hover:bg-indigo-600"
+              className="inline-block bg-indigo-500 text-white rounded-lg px-4 py-2 tracking-wider  hover:bg-indigo-600"
             >
               Publier un job
             </Link>
